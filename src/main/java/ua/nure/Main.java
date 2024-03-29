@@ -7,7 +7,7 @@ public class Main {
         RailwayTunnel tunnel = new RailwayTunnelBySemaphore(2);
         Random rand = new Random();
         long lowerBound = 500L, upperBound = 2000L, randomLong;
-        int trainsAmount = 10;
+        int trainsAmount = 19;
 
         for (int i = 0; i < trainsAmount; ++i) {
             randomLong = lowerBound + ((long) (rand.nextDouble() * (upperBound - lowerBound)));
